@@ -1,0 +1,19 @@
+{
+    "name": "RadicalSorter",
+    "author": "Lee0701",
+    "description": "Sorts category view by radicals.",
+    "version": "0.0.1",
+    "type": "hooks",
+    "AutoloadClasses": {
+        "RadicalSorterHooks": "includes/RadicalSorterHooks.php"
+    },
+    "Hooks": {
+        "GetDefaultSortkey": "RadicalSorterHooks::onGetDefaultSortkey"
+    },
+    "MessagesDirs": {
+        "RadicalSorter": [
+            "i18n"
+        ]
+    },
+    "manifest_version": 2
+}
